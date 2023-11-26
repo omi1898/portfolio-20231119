@@ -32,10 +32,10 @@ const Contact = () => {
               <i className="bx bx-mail-send contact__card-icon"></i>
 
               <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">user@gmail.com</span>
+              <span className="contact__card-data">omprakash.panchal1098@gmail.com</span>
 
               <a
-                href="mailto:examplemail@gmail.com.com"
+                 href="mailto:omprakash.panchal1098@gmail.com"
                 className="contact__button"
               >
                 Write me{" "}
@@ -47,7 +47,7 @@ const Contact = () => {
               <i className="bx bxl-whatsapp contact__card-icon"></i>
 
               <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">999-888-777</span>
+              <span className="contact__card-data">7774857776</span>
 
               <a
                 href="https://api.whatsapp.com/send?phone=62214408789&text=Hello, more information!"
@@ -64,7 +64,7 @@ const Contact = () => {
               <h3 className="contact__card-title">Messenger</h3>
               <span className="contact__card-data">user.fb123</span>
 
-              <a href="https://m.me/crypticalcoder" className="contact__button">
+              <a href="" className="contact__button">
                 Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
@@ -75,7 +75,7 @@ const Contact = () => {
         <div className="contact__content">
           <h3 className="contact__title">Write me your project</h3>
 
-          <form ref={form} onSubmit={sendEmail} className="contact__form">
+          <form ref={form}  className="contact__form">
             <div className="contact__form-div">
               <label className="contact__form-tag">Name</label>
               <input

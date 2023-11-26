@@ -1,39 +1,46 @@
-import Work1 from "../../assets/work1.jpg";
-import Work2 from "../../assets/work2.jpg";
-import Work3 from "../../assets/work3.jpg";
-import Work4 from "../../assets/work4.jpg";
-import Work5 from "../../assets/work5.jpg";
+import Work1 from "../../assets/deskStop.png";
+import Work2 from "../../assets/deskstop (2).png";
+import Work3 from "../../assets/Ebook.png";
+import Work4 from "../../assets/Estore.png";
+import Work5 from "../../assets/PortFolio.png";
+import Work6 from "../../assets/MOjoPanda.png";
 
 export const projectsData = [
   {
     id: 1,
     image: Work1,
-    title: "Web design",
-    category: "web",
+    title: "Mess Mgt Application",
+    category: "Desktop Application",
   },
   {
     id: 2,
     image: Work2,
-    title: "App movil",
-    category: "app",
+    title: "Gym Application",
+    category: "Desktop Application",
   },
   {
     id: 3,
     image: Work3,
-    title: "Brand design",
-    category: "design",
+    title: "Ebook Ecommerce",
+    category: "Web Application",
   },
   {
     id: 4,
     image: Work4,
-    title: "App movil",
-    category: "app",
+    title: "Electronic Estore",
+    category: "Web Application",
   },
   {
     id: 5,
     image: Work5,
     title: "Web design",
-    category: "web",
+    category: "Websites",
+  },
+  {
+    id: 6,
+    image: Work6,
+    title: "Web design",
+    category: "Websites",
   },
 ];
 
@@ -43,12 +50,12 @@ export const projectsNav = [
     name: "all",
   },
   {
-    name: "web",
+    name: "Websites",
   },
   {
-    name: "app",
+    name: "Web Application",
   },
   {
-    name: "design",
+    name: "Desktop Application",
   },
 ];
